@@ -9,17 +9,17 @@
           background-color: #888;
           margin: 0;
           padding: 0;
+          overflow: hidden;
         }
         h1 {
           text-align: center;
         }
         #myCanvas {
-          display: block;
-          border: 2px solid #333;
+          /*display: block;
           margin-left: auto;
           margin-right: auto;
           padding-left: 0;
-          padding-right: 0;
+          padding-right: 0;*/
           background-color: black;
         }
     </style>
@@ -27,9 +27,8 @@
 
     <script></script>
 </head>
-<body onload="game.init();">
+<body>
     <canvas id="myCanvas"></canvas>
-    <script src='gameLib.js'></script>
-    <script src='init.js'></script>
+    <script src='bundle.js'></script>
 </body>
 </html>
